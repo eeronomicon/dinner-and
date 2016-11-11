@@ -22,10 +22,11 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyBeOVTS3ThbHm9qFuEaGVE48kssx4eoYWE",
-      authDomain: "dinnerand-e232a.firebaseapp.com",
-      databaseURL: "https://dinnerand-e232a.firebaseio.com",
-      storageBucket: "dinnerand-e232a.appspot.com"
+      apiKey: "AIzaSyAgp3fayNthMJ_EbGko3fWI3T1DY10ZvPI",
+      authDomain: "js-ember-dinnerand.firebaseapp.com",
+      databaseURL: "https://js-ember-dinnerand.firebaseio.com",
+      storageBucket: "js-ember-dinnerand.appspot.com",
+      messagingSenderId: "313959893192"
     },
 
     APP: {

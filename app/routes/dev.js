@@ -5,8 +5,7 @@ export default Ember.Route.extend({
     return Ember.RSVP.hash({
       users: this.store.findAll('user'),
       interests: this.store.findAll('interest'),
-      userList: this.store.findRecord("catalog", "masterCatalog").then(function(response) {
-        return response.get('index'); })
+      userList: this.store.findRecord("catalog", "masterCatalog").then(function(response) { return response.get('index'); })
     });
   },
   afterModel() {
